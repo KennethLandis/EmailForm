@@ -12,21 +12,25 @@
 <!--Base Layout--> 
 
 <main>
-    <body></body>
+    <body>
 <article id="contact">
     <div class=wrapper>
-    <form action="https://formspree.io/f/xgepbggo" method="post">
-        
-        <label for="name">Name:</label>
-        <input id="name" type="text" name="name">
+    <form action="https://formspree.io/f/xgepbggo" method="POST">
+        <label>
+            Your name:
+            <input type="text" name="name">
+        </label>
+        <label>
+            Your email:
+            <input type="text" name="_replyto">
+        </label>
+        <label>
+        Your message:
+        <textarea name="message"></textarea>
+        </label>
 
-        <label for="email">Email:</label>
-        <input id="email" type="text" name="email" required />
 
-        <label for="form-message">Your message:</label>
-        <textarea id="form-message" name="message"></textarea>
-
-        <button type="submit">Submit</button>
+        <button type="submit">Send</button>
     </form>
     </div>
 </article>

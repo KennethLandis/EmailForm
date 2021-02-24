@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>KennethFormspree</title>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet" type="text/css" >
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--Base Layout--> 
+
+<main>
+<article id="contact">
+    <div class=wrapper>
+        <form action="https://formspree.io/YOUR_EMAIL_HERE"
+        method="post">
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name">
+    </form>
+
+    <form>
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email" required />
+    </form>
+
+    <form>
+        <label for="form-message">Your message:</label>
+        <textarea id="form-message" name="message"></textarea>
+    </form>
+
+    <form>
+        <button type="send">Submit</button>
+    </form>
+        </form>
+    </div>
+</article>
+</main>
